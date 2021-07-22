@@ -17,7 +17,7 @@ public class Main
         System.out.println("Enter the end limit: ");
         int end_limit=in.nextInt();
         stringbuffer.delete(start_limit,end_limit);
-        System.out.println("The string after appending is "+stringbuffer);
+        System.out.println("The string after deleting is "+stringbuffer);
 
 
 
