@@ -1,0 +1,38 @@
+package com.company;
+
+import com.sun.jdi.Value;
+
+import java.util.*;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Scanner in =new Scanner(System.in);
+        System.out.print("Enter the string: ");
+        String string=in.nextLine();
+        StringBuffer stringbuffer=new StringBuffer(string);
+        System.out.println("Enter the start limit: ");
+        int start_limit=in.nextInt();
+        System.out.println("Enter the end limit: ");
+        int end_limit=in.nextInt();
+        stringbuffer.delete(start_limit,end_limit);
+        System.out.println("The string after appending is "+stringbuffer);
+
+
+
+
+
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
